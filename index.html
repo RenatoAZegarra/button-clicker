@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="flex">
+            <div class="title">Dojonary</div>
+            <div class="searchbar">
+                <form class="example" action="action_page.php">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit">Search<i class="fa fa-search"></i></button>
+                </form>
+            </div>
+            <div>
+                <button class="btn3" onclick="logIn(login)" onclick="logOut(login)"><span id="login">Log
+                        In</span></button>
+            </div>
+        </header>
+        <main>
+            <div class="words flex">
+                <div class="left-side">
+                    <div class="ninja-1 flex">
+                        <div class="word ">
+                            <h1>ninja</h1>
+                            <p1>noun</p1><br>
+                            <p2>Plural:ninjas</p2>
+                            <button class="btn" onclick="addingLikes(like1)"><span id="like1">13</span> likes</button>
+                        </div>
+                        <div class="definition">A practioner skilled in the <a href="#">Japanese</a> art of <a
+                                href="#">ninjutsu</a>
+                        </div>
+                    </div>
+                    <div class="ninja-2 flex">
+                        <div class="word">
+                            <h1>ninja</h1>
+                            <p1>noun</p1><br>
+                            <p2>Plural:ninjas</p2>
+                            <button class="btn" onclick="addingLikes(like2)"><span id="like2">37</span> likes</button>
+                        </div>
+                        <div class="definition">A <a href="#">programmer</a> who breaks down problems with <a
+                                href="#">zen</a> like focus
+                        </div>
+                    </div>
+                </div>
+                <div class="right-side flex">
+
+                    <h2>Dojonary is defined by YOU</h2>
+                    <button class="btn2" onclick="addDefinition(this)"><span id="adddef">Add Definition</span></button>
+
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

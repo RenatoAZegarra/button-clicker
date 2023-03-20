@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+/* header */
+header {
+  background-color: lightgray;
+  padding: 20px;
+}
+.title,
+.searchbar,
+.login {
+  padding: 0 20px;
+}
+.title {
+  font-weight: bold;
+  font-size: 25px;
+}
+.btn3 {
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  width: 4rem;
+  border: none;
+  font-size: 10px;
+  margin: 10px;
+  height: 2rem;
+  cursor: pointer;
+}
+/* Style search field */
+form.example input[type="text"] {
+  padding: 10px;
+/* font-size: 17px; */
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+  min-height: 40px;
+}
+
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196f3;
+  color: white;
+  min-height: 42px;
+}
+form.example input[type="text"] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196f3;
+  color: white;
+  /* font-size: 17px; */
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/* main body */
+main {
+  padding: 20px;
+}
+.left-side {
+  flex: 1;
+  padding: 20px;
+}
+.right-side {
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  padding: 20px;
+  border: 5px solid black;
+}
+.ninja-1,
+.ninja-2 {
+  padding: 20px;
+  border: 5px solid black;
+  margin-bottom: 20px;
+}
+.word,
+.definition {
+  padding: 20px;
+}
+/* Buttons */
+.btn2 {
+  box-shadow: 2px 2px 1rem;
+  border: 2px solid black;
+  border-radius: 1rem;
+  background-color: green;
+  color: black;
+  font-size: 20px;
+  width: 50%;
+  height: 30%;
+  cursor: pointer;
+}
+.btn {
+  box-shadow: 1px 1px .25rem;
+  border: 1px solid black;
+  border-radius: .25rem;
+  background-color: yellow;
+  color: black;
+  font-size: 15px;
+  cursor: pointer;
+}
